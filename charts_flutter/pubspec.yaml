@@ -17,7 +17,10 @@ dependencies:
   # The latest pub version is commented out and shown below as an example.
 #  charts_common: any
   charts_common:
-    path: ../charts_common/
+    git:
+      url: https://github.com/ThanhKC-Flutter-Lib/charts_flutter.git
+      ref: main
+      path: charts_common
   collection: ^1.14.5
   flutter:
     sdk: flutter
